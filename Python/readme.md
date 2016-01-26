@@ -1,2 +1,2 @@
 
-Description: HTML and CSS course work for Maurice Sandoval
+Description: Python course work for Maurice Sandoval
