@@ -1,3 +1,7 @@
+#####
+#####  Inserting Data into the Database 
+#####  .fetchall() used to extract readable data
+
 import sqlite3
 
 # Connect to database 'simpsons.db'
