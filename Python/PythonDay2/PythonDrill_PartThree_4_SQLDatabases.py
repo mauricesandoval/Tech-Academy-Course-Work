@@ -1,3 +1,7 @@
+#####
+#####  Extracting Data from the Database
+#####
+
 import sqlite3
 
 # Connect to database 'simpsons.db'
