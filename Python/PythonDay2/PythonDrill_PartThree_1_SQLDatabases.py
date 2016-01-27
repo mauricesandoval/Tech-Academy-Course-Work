@@ -1,5 +1,5 @@
 ##########
-########## Creating database and entering data
+##########  Creating database and entering data
 ##########
 
 import sqlite3
