@@ -1,3 +1,7 @@
+#####
+#####  Inserting Data into the Database
+#####
+
 import sqlite3
 
 # Connect to database 'simpsons.db'
