@@ -1,3 +1,7 @@
+#####
+#####  Viewing Specific Data
+#####
+
 import sqlite3
 
 # Connect to database 'simpsons.db'
