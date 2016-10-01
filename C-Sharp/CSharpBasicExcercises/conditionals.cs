@@ -4,42 +4,51 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace ConsoleApplication2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            
             //Relational Operators: > < >= <= == !=
             //Logical Operators: && || ^ !
 
-            int age = 16;
-            if ((age >= 5) && (age <= 7))
+            int age = 4;
+            if ((age >= 6) && (age <= 12))
             {
                 Console.WriteLine("Go to elementary school");
-            } else if((age > 7) && (age < 13))
+            }
+            else if ((age >= 13) && (age <= 14))
             {
                 Console.WriteLine("Go to middle school");
-            }else
+            }
+            else
             {
                 Console.WriteLine("Go to high school");
             }
-            
-            /*
+
+
             switch (age)
             {
                 case 0:
                     Console.WriteLine("Infant");
                     break;
+            }
+
+            switch (age)
+            {
                 case 1:
-                case 2:
-                    Console.WriteLine("Toddler");
-                default:
-                    Console.WriteLine("Child");
+                    Console.WriteLine("Baby");
                     break;
             }
-           */
+
+            switch (age)
+            {
+                default:
+                    Console.WriteLine("Toddler");
+                    break;
+
+            }
 
         }
     }
